@@ -10,6 +10,8 @@ int main()
 
   string firstname;
   string lastname;
+  string nickname;
+  int lucky;
 
   //get user input
 
@@ -19,6 +21,9 @@ int main()
   cin>> lastname;
 
   //tell fortune
+ lucky= firstname.length();
+ cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n.";
+cout<< "Your lucky numer is.. "<<lucky<<endl;
 
   return 0;
 }
