@@ -24,14 +24,14 @@ int main()
 
   //tell fortune
    lucky= firstname.length();
-    cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune\n";
-    cout<< "Your lucky number is "<<lucky<<endl;
+    cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n";
+    cout<< "your lucky number is "<<lucky<<endl;
 
 
 
 if (firstchar== 'a' ||firstchar== 'e' ||firstchar== 'i'||firstchar== 'o'||firstchar== 'u'||firstchar== 'A' ||firstchar== 'E' ||firstchar== 'I' ||firstchar== 'O' ||firstchar== 'U')
   {
-  cout<< "Your destined to be famous!\n";
+  cout<< "you are destined to be famous!\n";
   }
   else 
   {
@@ -40,10 +40,10 @@ if (firstchar== 'a' ||firstchar== 'e' ||firstchar== 'i'||firstchar== 'o'||firstc
  
  if (lastchar== 'a' ||lastchar== 'e' ||lastchar== 'i' ||lastchar== 'o' ||lastchar== 'u' ||lastchar== 'A' ||lastchar== 'E' ||lastchar== 'I' ||lastchar== 'O' ||lastchar== 'U')
   {
-  cout<< "you already have met your true love.\n";
+  cout<< "you have already have met your true love.\n";
   }
 
- cout<< "Have a good day!\n";
+ cout<< "have a good day!\n";
 
   return 0;
 }
