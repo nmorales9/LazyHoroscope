@@ -42,7 +42,7 @@ int main()
  
  if (lastchar== 'a' ||lastchar== 'e' ||lastchar== 'i' ||lastchar== 'o' ||lastchar== 'u' ||lastchar== 'A' ||lastchar== 'E' ||lastchar== 'I' ||lastchar== 'O' ||lastchar== 'U')
   {
-  cout<< "you have already have met your true love.\n";
+  cout<< "you have already met your true love.\n";
   }
 
  cout<< "have a good day!\n";
