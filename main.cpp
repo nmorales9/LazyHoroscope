@@ -27,9 +27,9 @@ int main()
     cout<< "Welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n";
     cout<< "your lucky number is "<<lucky<<endl;
 
+    firstchar= firstname[0];
 
-
-if (firstchar== 'a' ||firstchar== 'e' ||firstchar== 'i'||firstchar== 'o'||firstchar== 'u'||firstchar== 'A' ||firstchar== 'E' ||firstchar== 'I' ||firstchar== 'O' ||firstchar== 'U')
+  if (firstchar== 'a' ||firstchar== 'e' ||firstchar== 'i'||firstchar== 'o'||firstchar== 'u'||firstchar== 'A' ||firstchar== 'E' ||firstchar== 'I' ||firstchar== 'O' ||firstchar== 'U')
   {
   cout<< "you are destined to be famous!\n";
   }
@@ -37,6 +37,8 @@ if (firstchar== 'a' ||firstchar== 'e' ||firstchar== 'i'||firstchar== 'o'||firstc
   {
   cout << "you should keep a low profile.\n";
   }
+
+  lastchar= lastname[lastname.length()-1];
  
  if (lastchar== 'a' ||lastchar== 'e' ||lastchar== 'i' ||lastchar== 'o' ||lastchar== 'u' ||lastchar== 'A' ||lastchar== 'E' ||lastchar== 'I' ||lastchar== 'O' ||lastchar== 'U')
   {
