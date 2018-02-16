@@ -21,10 +21,11 @@ int main()
   cin>> firstname;
   cout<< "What is your last name?\n";
   cin>> lastname;
+
   //tell fortune
    lucky= firstname.length();
-    cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n";
-    cout<< "Your lucky numer is.. "<<lucky<<endl;
+    cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune\n";
+    cout<< "Your lucky numer is "<<lucky<<endl;
 
 
 
