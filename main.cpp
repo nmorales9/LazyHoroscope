@@ -24,7 +24,7 @@ int main()
 
   //tell fortune
    lucky= firstname.length();
-    cout<< "welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n";
+    cout<< "Welcome, "<<firstname[0]<<"."<<lastname[0]<<"., here is your fortune...\n";
     cout<< "your lucky number is "<<lucky<<endl;
 
 
